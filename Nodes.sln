@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nodes.EfDbContext.Tests", "Nodes.EfDbContext.Tests\Nodes.EfDbContext.Tests.csproj", "{D75E1285-78ED-40AD-8176-0BE2273EC112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nodes.EfDbContext", "Nodes.EfDbContext\Nodes.EfDbContext.csproj", "{C8ECEA99-7BF2-44F5-A82B-4ACC19791452}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Nodes.SqlDb", "Nodes.SqlDb\Nodes.SqlDb.sqlproj", "{991CB091-D592-40B3-883C-254A80A926FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC81FD12-4F9D-4145-A919-BBFC6EFEEF44}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Readme.md = Readme.md
+		scaffold-ef.ps1 = scaffold-ef.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D75E1285-78ED-40AD-8176-0BE2273EC112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75E1285-78ED-40AD-8176-0BE2273EC112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75E1285-78ED-40AD-8176-0BE2273EC112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75E1285-78ED-40AD-8176-0BE2273EC112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8ECEA99-7BF2-44F5-A82B-4ACC19791452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8ECEA99-7BF2-44F5-A82B-4ACC19791452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8ECEA99-7BF2-44F5-A82B-4ACC19791452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8ECEA99-7BF2-44F5-A82B-4ACC19791452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991CB091-D592-40B3-883C-254A80A926FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991CB091-D592-40B3-883C-254A80A926FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991CB091-D592-40B3-883C-254A80A926FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{991CB091-D592-40B3-883C-254A80A926FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991CB091-D592-40B3-883C-254A80A926FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991CB091-D592-40B3-883C-254A80A926FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FD8AB78-F5D0-44F1-AFC2-88A63F3AF147}
+	EndGlobalSection
+EndGlobal

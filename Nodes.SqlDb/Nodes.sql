@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[Nodes] (
+    [Id] BIGINT NOT NULL IDENTITY (1, 1),
+    [Version] ROWVERSION,
+    [Uid] NVARCHAR(255) NOT NULL,
+    [Value] NVARCHAR(MAX) NOT NULL,
+    [Sha256] BINARY(256) NOT NULL
+
+    CONSTRAINT [PK_dbo.Nodes] PRIMARY KEY CLUSTERED ([Id] ASC)
+)
+GO 
+
+CREATE UNIQUE INDEX UX_Nodes_Uid ON [dbo].[Nodes] ([Uid]) INCLUDE ([Value])
